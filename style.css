@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    /* background: #13568d;
+    color: white; */
+    background-color: #1628ce4d;
+}
+
+#title{
+    text-align: center;
+    padding: 1.2rem;
+    color: green;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: green;
+}
+
+#products{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50px ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+
+#fruList{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50px ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#vegList{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50px ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
